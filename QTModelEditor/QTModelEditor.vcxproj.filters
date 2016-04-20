@@ -1,0 +1,361 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;cxx;c;def</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Debug">
+      <UniqueIdentifier>{c2638f39-9776-4c6c-bcb5-2c803c4c014d}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Release">
+      <UniqueIdentifier>{67ed028c-a941-42c1-82fa-31727fa96780}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Classes">
+      <UniqueIdentifier>{4d623748-d67c-4549-aeb0-99a03b20d178}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C3D">
+      <UniqueIdentifier>{24827f91-f50f-4986-8411-ef11e5af6f00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="comman">
+      <UniqueIdentifier>{7f391572-17ec-436a-953d-3c040fba6019}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="QT">
+      <UniqueIdentifier>{da26a643-1a69-4e02-8ab4-4fd6c918145d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common">
+      <UniqueIdentifier>{a83eb79e-8f3b-490d-b314-8bd6d4c49873}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FBXConV">
+      <UniqueIdentifier>{1e7ab962-0b93-49aa-b27e-ca3a820e951b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Chapter8">
+      <UniqueIdentifier>{d2ce87cd-189a-42df-aecc-3a5d5dfb2e0b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\qrc_qtmodeleditor.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ByteArray.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\CCQApplication.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\CCQGLView.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\CCQGLWidget.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\CocosWidget.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_CocosWidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_CocosWidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\FontChina.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Global.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\HelloWorldScene.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\StringUtil.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\C3D\C3DCamera.cpp">
+      <Filter>C3D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\C3D\C3DLayer.cpp">
+      <Filter>C3D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\C3D\C3DMesh.cpp">
+      <Filter>C3D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\C3D\C3DNode.cpp">
+      <Filter>C3D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\C3D\C3DParticleSystem.cpp">
+      <Filter>C3D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\C3D\C3DShape.cpp">
+      <Filter>C3D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\C3D\C3DSubMesh.cpp">
+      <Filter>C3D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\comman\texture.cpp">
+      <Filter>comman</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\QT\BaseDockWidget.cpp">
+      <Filter>QT</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_BaseDockWidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_BaseDockWidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\QT\qtmodeleditor.cpp">
+      <Filter>QT</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_qtmodeleditor.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_qtmodeleditor.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_CCQApplication.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_CCQApplication.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_CCQGLWidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_CCQGLWidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\QT\transdialog.cpp">
+      <Filter>QT</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_transdialog.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_transdialog.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_CCQGLView.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_CCQGLView.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\comman\objloader.cpp">
+      <Filter>comman</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\comman\vboindexer.cpp">
+      <Filter>comman</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Common\AnimationUtility.cxx">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Common\Common.cxx">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Common\GeometryUtility.cxx">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\FBXConV\FBX_Conv.cpp">
+      <Filter>FBXConV</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\FBXConV\SceneCache.cpp">
+      <Filter>FBXConV</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\FBXConV\SceneContext.cpp">
+      <Filter>FBXConV</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\FBXConV\DrawScene.cpp">
+      <Filter>FBXConV</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\FBXConV\GetPosition.cpp">
+      <Filter>FBXConV</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\FBXConV\GlFunctions.cpp">
+      <Filter>FBXConV</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\FBXConV\SetCamera.cpp">
+      <Filter>FBXConV</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\FBXConV\targa.cpp">
+      <Filter>FBXConV</Filter>
+    </ClCompile>
+    <ClCompile Include="Exporter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneUtils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C3BLoader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Cylinder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Circle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="qtmodeleditor.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qtmodeleditor.qrc">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\Classes\CCQApplication.h">
+      <Filter>Classes</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\Classes\CCQGLWidget.h">
+      <Filter>Classes</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\Classes\CocosWidget.h">
+      <Filter>Classes</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\Classes\QT\BaseDockWidget.h">
+      <Filter>QT</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\Classes\QT\qtmodeleditor.h">
+      <Filter>QT</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\Classes\QT\transdialog.h">
+      <Filter>QT</Filter>
+    </CustomBuild>
+    <CustomBuild Include="transdialog.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\Classes\CCQGLView.h">
+      <Filter>Classes</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GeneratedFiles\ui_qtmodeleditor.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ByteArray.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\FontChina.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Global.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\HelloWorldScene.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\StringUtil.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\C3D\C3DCamera.h">
+      <Filter>C3D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\C3D\C3DLayer.h">
+      <Filter>C3D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\C3D\C3DMesh.h">
+      <Filter>C3D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\C3D\C3DNode.h">
+      <Filter>C3D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\C3D\C3DParticleSystem.h">
+      <Filter>C3D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\C3D\C3DShape.h">
+      <Filter>C3D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\C3D\C3DSubMesh.h">
+      <Filter>C3D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\comman\texture.h">
+      <Filter>comman</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_transdialog.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\comman\objloader.h">
+      <Filter>comman</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\comman\vboindexer.h">
+      <Filter>comman</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Common\AnimationUtility.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Common\Common.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Common\GeometryUtility.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\FBXConV\FBX_Conv.h">
+      <Filter>FBXConV</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\FBXConV\SceneCache.h">
+      <Filter>FBXConV</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\FBXConV\SceneContext.h">
+      <Filter>FBXConV</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\FBXConV\DrawScene.h">
+      <Filter>FBXConV</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\FBXConV\GetPosition.h">
+      <Filter>FBXConV</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\FBXConV\GlFunctions.h">
+      <Filter>FBXConV</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\FBXConV\SetCamera.h">
+      <Filter>FBXConV</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\FBXConV\targa.h">
+      <Filter>FBXConV</Filter>
+    </ClInclude>
+    <ClInclude Include="Exporter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneUtils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C3BLoader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Cylinder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Circle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
